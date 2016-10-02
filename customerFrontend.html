@@ -1,0 +1,38 @@
+<html>
+ <head>
+  <title>Web Store</title>
+  <script type="text/javascript"
+                 src="formChecker.js">
+         </script>
+<link rel="stylesheet" type="text/css" href="myStyle.css">
+
+
+ </head>
+ <body>
+ <h1>Left Shoe, Right Sock</h1>
+	<p>We sell left foot shoe's and the right foot socks only. 
+	<br>All right foot shoe's and left foot socks are used for shoe displays and sock puppets.
+ <form action="customerBackend.php" method="post"  onsubmit="return validate()">
+	<fieldset>
+        Username(name@domain.com): <input type="text" name="Username" placeholder="name@domain.com"><br>
+        Password: <input type="password" name="Password" placeholder="password"><br>
+	</fieldset>
+	<fieldset>
+		<h3>Products</h3>
+		<p>Enter desired quantity of products.</p>
+        Left Shoe $30: <input type="number" name="Left" min="0" value="0"><br>
+        Right Sock $5: <input type="number" name="Right" min="0" value="0"><br>
+		Left Shoe, Right Sock pkg. $32: <input type="number" name="pkg" min="0" value="0"><br>
+	</fieldset>
+	<fieldset>
+		<h3>Shipping Options</h3>
+		<p>You must choose a shipping option.</p>
+		<input type="radio" name="shipping"  id="free" value="Free 7 day">Free 7 day</inptut><br>
+		<input type="radio" name="shipping" id="night" value="$50.00 over night">$50.00 over night</inptut><br>
+		<input type="radio" name="shipping" id="three" value="$5.00 three day">$5.00 three day</inptut><br>
+	</fieldset>
+		<input type="submit">
+		<input type="reset">
+	</form>
+ </body>
+</html>

@@ -1,0 +1,93 @@
+
+body
+{
+    background-color: #4d0000;
+    background-image:url(logo.png);
+    background-size: auto;
+    background-repeat: space;
+    background-attachment: fixed;
+    background-position: center;
+}
+form
+{
+	color: white;
+}
+fieldset
+{
+	color: white;
+}
+p
+{
+    background-color: black;
+    color: green;
+    font-family: monospace;
+    font-size: 12pt;
+}
+h1
+{
+  color: white;
+  font-style: oblique;
+  font-family: monospace;
+  font-size: 40pt;
+  text-shadow: 2px 2px 5px black;
+}
+h2
+{
+  color: white;
+  font-style: oblique;
+  font-family: monospace;
+  font-size: 25pt;
+  text-shadow: 2px 2px 5px black;
+}
+h3
+{
+  color: white;
+  font-style: oblique;
+  font-family: monospace;
+  font-size: 20pt;
+  text-shadow: 2px 2px 5px black;
+}
+a:hover
+{
+  background-color: white;
+  color: black;
+}
+a:link
+{
+  color: green;
+}
+a:visited
+{
+  color: green;
+}
+table
+{
+  color: white;
+}
+
+
+input[type=text] 
+{
+    width: 25%;
+    padding: 5px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: green;
+}
+input[type=password] 
+{
+    width: 25%;
+    padding: 5px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: green;
+}
+input[type=number] 
+{
+    width: 10%;
+    padding: 5px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
